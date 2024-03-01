@@ -5,14 +5,14 @@ function reverseString(str) {
 }
 
 function check() {
-    const value = input.value;
+    const value = input.value
     const reverse = reverseString(value)
 
-    if (value === reverse) {
-        alert("P A L I N D R O M E")
+    if (value == reverse) {
+        alert("This is a Palindrome!")
     } else {
-        alert(" Not A PALINDROME!")
+        alert(" Not a Palindrome!")
     }
 
-    
+    input.value = ""
 }
